@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    background-color: #EEEEEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 20vw;
+}
+
+.paper > * {
+    width: 100%;
+}
+
+.profile-photo {
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.info > * {
+    margin: .5rem;
+}
+
+.info .buttons > * {
+    margin: 0 .2rem;
+}
+
+.about, .interests {
+    padding: .2rem .5rem;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem;
+}
+.footer > * {
+    margin: 0 .5rem;
+}
