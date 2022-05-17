@@ -1,4 +1,4 @@
-import { Typography, Button, Stack, Paper } from '@mui/material';
+import { Typography, Button } from '@mui/material';
 import Profile from '../assets/profile.png';
 import EmailIcon from '@mui/icons-material/Email';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
